@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+  }
+
+  .card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  button[type="submit"] {
+    background-color: #1E416C;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border:2px solid #00ffff ;
+}
+
+button[type="submit"]:hover {
+    background-color: #1E416C;
+}
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffff;
+    border-radius: 4px;
+}
+.navbar {
+  background: linear-gradient(to right, #00d9ff, #1E416C); 
+  padding: 10px;
+}
+nav {
+  background-color:  #1E416C;
+  padding: 10px;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; 
+}
+li {
+  display: inline;
+  margin-right: 10px;
+}
+footer {
+  background: linear-gradient(to right, #00d9ff,  #1E416C); 
+  color: #fff; /* color de letra */
+}
+hr {
+  border: none;
+  border-top: 30px solid #ffffff; /* Estilo y color del separador */
+  margin: px 0; /* Margen superior e inferior del separador */
+}

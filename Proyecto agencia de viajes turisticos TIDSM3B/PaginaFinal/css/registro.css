@@ -1,0 +1,36 @@
+.navbar {
+  background: linear-gradient(to right, #00d9ff, #1E416C); 
+}
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+  }
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  body {
+    padding-top: 60px;
+  }
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  select[id="ciudad"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffff;
+    border-radius: 4px;
+}
+footer {
+  background: linear-gradient(to right, #00d9ff, #1E416C); 
+  color: #fff; /* color de letra */
+}

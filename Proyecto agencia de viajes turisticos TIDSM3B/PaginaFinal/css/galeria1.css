@@ -1,0 +1,46 @@
+
+  body {
+    padding-top: 50px;
+  }
+  .jumbotron {
+    justify-content: center;
+    align-items: center;
+    color: #76c5f3;
+  }
+  .jumbotron h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px #18a2f2;
+  }
+  .jumbotron p {
+    font-size: 22px;
+    text-shadow: 2px 2px #3070fa;
+  }
+  .navbar {
+    background: linear-gradient(to right, #00d9ff, #1E416C); 
+  }
+  .carousel-item img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(203deg) brightness(104%) contrast(105%);
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+    background-color:#1E416C;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: #1E416C;
+  }
+  footer {
+    background: linear-gradient(to right, #00d9ff, #1E416C); 
+    color: #ffffff; /* color de letra */
+  }

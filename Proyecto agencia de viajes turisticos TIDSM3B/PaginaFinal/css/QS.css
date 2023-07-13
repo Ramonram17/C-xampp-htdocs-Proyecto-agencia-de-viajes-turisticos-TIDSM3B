@@ -1,0 +1,32 @@
+
+.navbar {
+  background: linear-gradient(to right, #00d9ff,  #1E416C); 
+}
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    display: flex;
+    color: #000000;
+  }
+
+  .jumbotron .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jumbotron .container img {
+    max-width: 100%;
+    align-self: flex-end;
+  }
+
+  .jumbotron.reverse .container img {
+    align-self: flex-start;
+  }
+  footer {
+    background: linear-gradient(to right, #00d9ff, #1E416C); 
+        color: #fff; /* color de letra */
+  }
+  
